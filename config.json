@@ -1,0 +1,14 @@
+{
+  "name": "Pinggy Tunnel",
+  "version": "1.0",
+  "slug": "pinggy_tunnel",
+  "description": "Expose Home Assistant via a secure tunnel using Pinggy.",
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "pinggy_token": ""
+  },
+  "schema": {
+    "pinggy_token": "str"
+  }
+}

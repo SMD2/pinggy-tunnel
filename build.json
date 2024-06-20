@@ -1,0 +1,5 @@
+{
+  "args": {
+    "BUILD_FROM": "alpine:3.13"
+  }
+}

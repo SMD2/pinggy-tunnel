@@ -1,7 +1,10 @@
 #!/bin/sh
 
 # Path to the log file
-LOG_FILE=/config/pinggy_tunnel.log
+LOG_FILE=/data/pinggy_tunnel.log
+
+# Create the log directory if it doesn't exist
+mkdir -p $(dirname $LOG_FILE)
 
 # Clear the log file
 : > $LOG_FILE

@@ -1,6 +1,6 @@
 {
   "name": "Pinggy Tunnel",
-  "version": "1.3",
+  "version": "1.4",
   "slug": "pinggy_tunnel",
   "description": "Expose Home Assistant via a secure tunnel using Pinggy.",
   "startup": "services",

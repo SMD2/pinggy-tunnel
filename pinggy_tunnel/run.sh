@@ -2,6 +2,9 @@
 
 CONFIG_PATH=/data/options.json
 
+# Print a clear start message to indicate the start of a new session
+echo "================= Starting new Pinggy Tunnel session ================="
+
 TOKEN=$(jq --raw-output '.pinggy_token' $CONFIG_PATH)
 LOG_LEVEL=$(jq --raw-output '.log_level' $CONFIG_PATH)
 

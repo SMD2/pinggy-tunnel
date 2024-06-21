@@ -10,5 +10,16 @@
   },
   "schema": {
     "pinggy_token": "str"
-  }
+  },
+  "url": "https://github.com/SMD2/pinggy-tunnel/blob/main/pinggy_tunnel/config.json",
+  "map" : {
+    "share":"rw"
+  },
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ]
 }

@@ -1,15 +1,17 @@
 {
   "name": "Pinggy Tunnel",
-  "version": "1.2",
+  "version": "1.3",
   "slug": "pinggy_tunnel",
   "description": "Expose Home Assistant via a secure tunnel using Pinggy.",
   "startup": "services",
   "boot": "auto",
   "options": {
-    "pinggy_token": ""
+    "pinggy_token": "",
+    "log_level": "info"
   },
   "schema": {
-    "pinggy_token": "str"
+    "pinggy_token": "str",
+    "log_level": "str"
   },
   "url": "https://github.com/SMD2/pinggy-tunnel/blob/main/pinggy_tunnel/config.json",
   "map" : {

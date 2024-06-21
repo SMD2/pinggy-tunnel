@@ -13,5 +13,6 @@ This add-on creates a secure tunnel to expose your Home Assistant instance using
 
 ```json
 {
-  "pinggy_token": "your_pinggy_token_here"
+  "pinggy_token": "your_pinggy_token_here",
+  "log_level": "info"
 }
